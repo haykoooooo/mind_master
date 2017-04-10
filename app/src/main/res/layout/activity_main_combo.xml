@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F0F0"
+
+    tools:context=".activities.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_75sdp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/main_action_bar_combo" />
+
+    <ImageView
+        android:id="@+id/imageViewActionBarCombo"
+        android:layout_width="@dimen/_68sdp"
+        android:layout_height="@dimen/_68sdp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/main_combo_icon" />
+
+    <ImageView
+        android:id="@+id/imageViewBackFromCombo"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_2sdp"
+        android:src="@drawable/main_back_from_combo" />
+
+    <ImageView
+        android:id="@+id/imageViewColorsGame"
+        android:layout_width="@dimen/_300sdp"
+        android:layout_height="@dimen/_51sdp"
+        android:layout_below="@+id/imageViewActionBarCombo"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/main_combo_game1_colors" />
+
+    <ImageView
+        android:id="@+id/imageViewColorsGameShadow"
+        android:layout_width="@dimen/_300sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:layout_below="@+id/imageViewColorsGame"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/main_combo_game_shadows" />
+
+    <ImageView
+        android:id="@+id/imageViewMathGame"
+        android:layout_width="@dimen/_300sdp"
+        android:layout_height="@dimen/_51sdp"
+        android:layout_below="@+id/imageViewColorsGameShadow"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/main_combo_game2_math" />
+
+    <ImageView
+        android:id="@+id/imageViewMathGameShadow"
+        android:layout_width="@dimen/_300sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:layout_below="@+id/imageViewMathGame"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/main_combo_game_shadows" />
+
+    <ImageView
+        android:id="@+id/imageViewMemorizeGame"
+        android:layout_width="@dimen/_300sdp"
+        android:layout_height="@dimen/_51sdp"
+        android:layout_below="@+id/imageViewMathGameShadow"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/main_combo_game3_memorize" />
+
+    <ImageView
+        android:id="@+id/imageViewMemorizeGameShadow"
+        android:layout_width="@dimen/_300sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:layout_below="@+id/imageViewMemorizeGame"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/main_combo_game_shadows" />
+
+    <ImageView
+        android:id="@+id/imageViewPairsGame"
+        android:layout_width="@dimen/_300sdp"
+        android:layout_height="@dimen/_51sdp"
+        android:layout_below="@+id/imageViewMemorizeGameShadow"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/main_combo_game4_pairs" />
+
+    <ImageView
+        android:id="@+id/imageViewPairsGameShadow"
+        android:layout_width="@dimen/_300sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:layout_below="@+id/imageViewPairsGame"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/main_combo_game_shadows" />
+
+    <ImageView
+        android:id="@+id/imageViewNumbersGame"
+        android:layout_width="@dimen/_300sdp"
+        android:layout_height="@dimen/_51sdp"
+        android:layout_below="@+id/imageViewPairsGameShadow"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/main_combo_game5_numbers" />
+
+    <ImageView
+        android:id="@+id/imageViewNumbersGameShadow"
+        android:layout_width="@dimen/_300sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:layout_below="@+id/imageViewNumbersGame"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/main_combo_game_shadows" />
+
+    <ImageView
+        android:id="@+id/imageViewShapesGame"
+        android:layout_width="@dimen/_300sdp"
+        android:layout_height="@dimen/_51sdp"
+        android:layout_below="@+id/imageViewNumbersGameShadow"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/main_combo_game6_shapes" />
+
+    <!--<ImageView-->
+    <!--android:id="@+id/imageViewShapesGameShadow"-->
+    <!--android:layout_width="@dimen/_300sdp"-->
+    <!--android:layout_height="@dimen/_20sdp"-->
+    <!--android:layout_below="@+id/imageViewShapesGame"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:src="@drawable/main_combo_game_shadows" />-->
+</RelativeLayout>

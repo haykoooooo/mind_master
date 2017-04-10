@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F0F0"
+    android:clickable="true">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="@dimen/_400sdp"
+        android:layout_height="@dimen/_15sdp"
+        android:layout_below="@+id/gameBackground"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/shadow_up" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="@dimen/_300sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:layout_below="@+id/colorsGameContainers"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/main_combo_game_shadows" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="@dimen/_83sdp"
+        android:layout_height="@dimen/_83sdp"
+        android:layout_below="@+id/imageView7"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/rounds_0010_rounds_bg" />
+
+    <ImageView
+        android:id="@+id/imageViewColorsOk"
+        android:layout_width="@dimen/_75sdp"
+        android:layout_height="@dimen/_75sdp"
+        android:layout_below="@+id/imageView7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_3sdp"
+        android:alpha="0.5"
+        android:src="@drawable/ok" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="@dimen/_110sdp"
+        android:layout_height="@dimen/_17sdp"
+        android:layout_below="@+id/imageView8"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:src="@drawable/ok_shadow_down" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="@dimen/_300sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/main_combo_game_shadows" />
+
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="@dimen/_400sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:layout_above="@+id/colorsCover"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:src="@drawable/shadow_up" />
+
+    <include
+        android:id="@+id/colorsGameContainers"
+        layout="@layout/colors_game_containers"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_95sdp"
+        android:layout_below="@+id/imageView6" />
+
+    <RelativeLayout
+        android:id="@+id/colorsGridViewCover"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_131sdp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#F0F0F0"
+        android:visibility="invisible" />
+
+    <RelativeLayout
+        android:id="@+id/colorsCover"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_119sdp"
+        android:layout_above="@+id/imageView10"
+        android:layout_alignParentLeft="true"
+        android:background="#F0F0F0">
+
+        <ImageView
+            android:id="@+id/imageViewColorsColor1"
+            android:layout_width="@dimen/_53sdp"
+            android:layout_height="@dimen/_53sdp"
+            android:layout_above="@+id/imageViewColorsColor10"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="@dimen/_3sdp"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_3sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:src="@drawable/rounds_0009_blue" />
+
+        <ImageView
+            android:id="@+id/imageViewColorsColor2"
+            android:layout_width="@dimen/_53sdp"
+            android:layout_height="@dimen/_53sdp"
+            android:layout_above="@+id/imageViewColorsColor10"
+            android:layout_margin="@dimen/_3sdp"
+            android:layout_toRightOf="@+id/imageViewColorsColor1"
+            android:src="@drawable/rounds_0008_red" />
+
+        <ImageView
+            android:id="@+id/imageViewColorsColor3"
+            android:layout_width="@dimen/_53sdp"
+            android:layout_height="@dimen/_53sdp"
+            android:layout_above="@+id/imageViewColorsColor10"
+            android:layout_margin="@dimen/_3sdp"
+            android:layout_toRightOf="@+id/imageViewColorsColor2"
+            android:src="@drawable/rounds_0007_green" />
+
+        <ImageView
+            android:id="@+id/imageViewColorsColor4"
+            android:layout_width="@dimen/_53sdp"
+            android:layout_height="@dimen/_53sdp"
+            android:layout_above="@+id/imageViewColorsColor10"
+            android:layout_margin="@dimen/_3sdp"
+            android:layout_toRightOf="@+id/imageViewColorsColor3"
+            android:src="@drawable/rounds_0006_yellow" />
+
+        <ImageView
+            android:id="@+id/imageViewColorsColor5"
+            android:layout_width="@dimen/_53sdp"
+            android:layout_height="@dimen/_53sdp"
+            android:layout_above="@+id/imageViewColorsColor10"
+            android:layout_margin="@dimen/_3sdp"
+            android:layout_toRightOf="@+id/imageViewColorsColor4"
+            android:src="@drawable/rounds_0005_pink" />
+
+        <ImageView
+            android:id="@+id/imageViewColorsColor6"
+            android:layout_width="@dimen/_53sdp"
+            android:layout_height="@dimen/_53sdp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="@dimen/_3sdp"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_3sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:src="@drawable/rounds_0004_orange" />
+
+        <ImageView
+            android:id="@+id/imageViewColorsColor7"
+            android:layout_width="@dimen/_53sdp"
+            android:layout_height="@dimen/_53sdp"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="@dimen/_3sdp"
+            android:layout_toRightOf="@+id/imageViewColorsColor6"
+            android:src="@drawable/rounds_0003_violet" />
+
+        <ImageView
+            android:id="@+id/imageViewColorsColor8"
+            android:layout_width="@dimen/_53sdp"
+            android:layout_height="@dimen/_53sdp"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="@dimen/_3sdp"
+            android:layout_toRightOf="@+id/imageViewColorsColor7"
+            android:src="@drawable/rounds_0002_light_blue" />
+
+        <ImageView
+            android:id="@+id/imageViewColorsColor9"
+            android:layout_width="@dimen/_53sdp"
+            android:layout_height="@dimen/_53sdp"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="@dimen/_3sdp"
+            android:layout_toRightOf="@+id/imageViewColorsColor8"
+            android:src="@drawable/rounds_0001_brown" />
+
+        <ImageView
+            android:id="@+id/imageViewColorsColor10"
+            android:layout_width="@dimen/_53sdp"
+            android:layout_height="@dimen/_53sdp"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="@dimen/_3sdp"
+            android:layout_toRightOf="@+id/imageViewColorsColor9"
+            android:src="@drawable/rounds_0000_fire" />
+    </RelativeLayout>
+</RelativeLayout>

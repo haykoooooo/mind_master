@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F0F0"
+    android:clickable="true"
+    android:visibility="invisible">
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="@dimen/_115sdp"
+        android:layout_height="@dimen/_115sdp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/rounds_0010_rounds_bg" />
+
+    <ImageView
+        android:id="@+id/imageViewNumbersPlace"
+        android:layout_width="@dimen/_103sdp"
+        android:layout_height="@dimen/_103sdp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:src="@drawable/correct" />
+
+    <ImageView
+        android:id="@+id/imageViewNumbersAnimPlace"
+        android:layout_width="@dimen/_103sdp"
+        android:layout_height="@dimen/_103sdp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="@dimen/_6sdp"
+        android:layout_marginTop="@dimen/_3sdp" />
+
+    <ImageView
+        android:id="@+id/imageViewBonus"
+        android:layout_width="@dimen/_103sdp"
+        android:layout_height="@dimen/_103sdp"
+        android:layout_below="@id/imageViewNumbersPlace"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="@dimen/_6sdp"
+        android:layout_marginTop="@dimen/_28sdp"
+        android:src="@drawable/bonus_plus5" />
+</RelativeLayout>

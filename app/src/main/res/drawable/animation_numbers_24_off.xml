@@ -1,0 +1,10 @@
+<animation-list
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true">
+    <item android:drawable="@drawable/numbers_00902" android:duration="51"/>
+    <item android:drawable="@drawable/numbers_00903" android:duration="51"/>
+    <item android:drawable="@drawable/numbers_00904" android:duration="51"/>
+    <item android:drawable="@drawable/numbers_00905" android:duration="51"/>
+    <item android:drawable="@drawable/numbers_00906" android:duration="51"/>
+    <item android:drawable="@drawable/numbers_00907" android:duration="51"/>
+</animation-list>

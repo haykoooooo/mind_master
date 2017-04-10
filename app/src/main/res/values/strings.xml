@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Mind Master</string>
+    <string name="title_activity_rules">RulesActivity</string>
+    <string name="title_activity_resume_exit">ResumeExitActivity</string>
+</resources>

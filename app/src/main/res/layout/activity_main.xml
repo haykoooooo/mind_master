@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F0F0"
+    tools:context=".activities.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageViewActionBarMindMaster"
+        android:layout_width="@dimen/_400sdp"
+        android:layout_height="@dimen/_65sdp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/main_action_bar" />
+
+    <ImageView
+        android:id="@+id/imageViewPlay"
+        android:layout_width="@dimen/_110sdp"
+        android:layout_height="@dimen/_110sdp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/main_play1" />
+
+    <ImageView
+        android:id="@+id/imageViewEllipse"
+        android:layout_width="@dimen/_110sdp"
+        android:layout_height="@dimen/_110sdp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/main_ellipse" />
+
+    <ImageView
+        android:id="@+id/imageViewShadow"
+        android:layout_width="@dimen/_140sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:layout_below="@+id/imageViewEllipse"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:src="@drawable/main_shadow_down" />
+
+    <ImageView
+        android:id="@+id/imageViewFooter"
+        android:layout_width="@dimen/_400sdp"
+        android:layout_height="@dimen/_71sdp"
+        android:scaleType="fitXY"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/main_login_bg" />
+
+    <ImageView
+        android:id="@+id/imageViewFooterTextMainActivity"
+        android:layout_width="@dimen/_93sdp"
+        android:layout_height="@dimen/_24sdp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/_9sdp"
+        android:src="@drawable/login_text" />
+
+</RelativeLayout>

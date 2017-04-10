@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pauseMenuLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#50000000"
+    android:clickable="true"
+    android:visibility="invisible">
+
+    <ImageView
+        android:id="@+id/imageViewResumeGameIcon"
+        android:layout_width="@dimen/_118sdp"
+        android:layout_height="@dimen/_48sdp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/_88sdp"
+        android:layout_marginTop="@dimen/_135sdp"
+        android:scaleType="fitXY"
+        android:src="@drawable/pause_menu_resume" />
+
+    <ImageView
+        android:id="@+id/imageViewRestartGame"
+        android:layout_width="@dimen/_118sdp"
+        android:layout_height="@dimen/_48sdp"
+        android:layout_below="@+id/imageViewResumeGameIcon"
+        android:layout_marginLeft="@dimen/_88sdp"
+        android:scaleType="fitXY"
+        android:src="@drawable/pause_menu_restart" />
+
+    <ImageView
+        android:id="@+id/imageViewMusic"
+        android:layout_width="@dimen/_115sdp"
+        android:layout_height="@dimen/_48sdp"
+        android:layout_below="@+id/imageViewRestartGame"
+        android:layout_marginLeft="@dimen/_87sdp"
+        android:scaleType="fitXY"
+        android:src="@drawable/pause_menu_music_on" />
+
+    <ImageView
+        android:id="@+id/imageViewSound"
+        android:layout_width="@dimen/_118sdp"
+        android:layout_height="@dimen/_48sdp"
+        android:layout_below="@+id/imageViewMusic"
+        android:layout_marginLeft="@dimen/_88sdp"
+        android:scaleType="fitXY"
+        android:src="@drawable/pause_menu_sound_on" />
+
+    <ImageView
+        android:id="@+id/imageViewExitGame"
+        android:layout_width="@dimen/_110sdp"
+        android:layout_height="@dimen/_48sdp"
+        android:layout_below="@+id/imageViewSound"
+        android:layout_marginLeft="@dimen/_86sdp"
+        android:scaleType="fitXY"
+        android:src="@drawable/pause_menu_exit" />
+</RelativeLayout>

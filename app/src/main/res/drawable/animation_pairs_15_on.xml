@@ -1,0 +1,10 @@
+<animation-list
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true">
+    <item android:drawable="@drawable/pairs_00120" android:duration="54"/>
+    <item android:drawable="@drawable/pairs_00121" android:duration="54"/>
+    <item android:drawable="@drawable/pairs_00122" android:duration="54"/>
+    <item android:drawable="@drawable/pairs_00123" android:duration="54"/>
+    <item android:drawable="@drawable/pairs_00124" android:duration="54"/>
+    <item android:drawable="@drawable/pairs_00125" android:duration="54"/>
+</animation-list>

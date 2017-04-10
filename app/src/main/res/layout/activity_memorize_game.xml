@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/memorizeGameRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F0F0"
+
+    tools:context=".activities.MemorizeGameActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/memorizeGamePlay"
+            layout="@layout/memorize_game_play"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/gameBackground" />
+
+        <include
+            android:id="@+id/gameBackground"
+            layout="@layout/game_background"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/pauseMenuLayout"
+        layout="@layout/pause_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <include
+        android:id="@+id/activityMemorizeGameRules"
+        layout="@layout/activity_memorize_game_rules"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <include
+        android:id="@+id/timeOutLayoutCombo"
+        layout="@layout/time_out_combo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <include
+        android:id="@+id/timeOutLayout"
+        layout="@layout/time_out"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <include
+        android:id="@+id/resumeExitLayout"
+        layout="@layout/resume_exit"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</FrameLayout>

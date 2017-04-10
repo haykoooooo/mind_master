@@ -1,0 +1,19 @@
+<animation-list
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true">
+    <item android:drawable="@drawable/numbers_00382" android:duration="51"/>
+    <item android:drawable="@drawable/numbers_00383" android:duration="51"/>
+    <item android:drawable="@drawable/numbers_00384" android:duration="51"/>
+    <item android:drawable="@drawable/numbers_00385" android:duration="51"/>
+    <item android:drawable="@drawable/numbers_00386" android:duration="51"/>
+    <item android:drawable="@drawable/numbers_00387" android:duration="51"/>
+    <item android:drawable="@drawable/numbers_00388" android:duration="51"/>
+    <item android:drawable="@drawable/numbers_00389" android:duration="51"/>
+    <item android:drawable="@drawable/numbers_00390" android:duration="51"/>
+    <item android:drawable="@drawable/numbers_00391" android:duration="51"/>
+    <item android:drawable="@drawable/numbers_00392" android:duration="51"/>
+    <item android:drawable="@drawable/numbers_00393" android:duration="51"/>
+    <item android:drawable="@drawable/numbers_00394" android:duration="51"/>
+    <item android:drawable="@drawable/numbers_00395" android:duration="51"/>
+    <item android:drawable="@drawable/numbers_00407" android:duration="51"/>
+</animation-list>

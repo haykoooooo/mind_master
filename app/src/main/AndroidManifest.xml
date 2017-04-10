@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.manqaro.mindmaster">
+
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".networking.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/NoActionBar">
+        <activity
+            android:name=".activities.MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.ColorsGameActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.MathGameActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.MemorizeGameActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.PairsGameActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.NumbersGameActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.ShapesGameActivity"
+            android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>

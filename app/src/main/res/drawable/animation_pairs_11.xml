@@ -1,0 +1,17 @@
+<animation-list
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true">
+    <item android:drawable="@drawable/pairs_00088" android:duration="54"/>
+    <item android:drawable="@drawable/pairs_00089" android:duration="54"/>
+    <item android:drawable="@drawable/pairs_00090" android:duration="54"/>
+    <item android:drawable="@drawable/pairs_00091" android:duration="54"/>
+    <item android:drawable="@drawable/pairs_00092" android:duration="54"/>
+    <item android:drawable="@drawable/pairs_00093" android:duration="54"/>
+    <item android:drawable="@drawable/pairs_00094" android:duration="2017"/>
+    <item android:drawable="@drawable/pairs_00093" android:duration="54"/>
+    <item android:drawable="@drawable/pairs_00092" android:duration="54"/>
+    <item android:drawable="@drawable/pairs_00091" android:duration="54"/>
+    <item android:drawable="@drawable/pairs_00090" android:duration="54"/>
+    <item android:drawable="@drawable/pairs_00089" android:duration="54"/>
+    <item android:drawable="@drawable/pairs_00088" android:duration="54"/>
+</animation-list>

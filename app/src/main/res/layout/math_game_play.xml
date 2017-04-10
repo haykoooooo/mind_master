@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F0F0"
+    android:clickable="true">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="@dimen/_400sdp"
+        android:layout_height="@dimen/_15sdp"
+        android:layout_below="@+id/gameBackground"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/shadow_up" />
+
+    <ImageView
+        android:id="@+id/imageViewMathMinus"
+        android:layout_width="@dimen/_54sdp"
+        android:layout_height="@dimen/_54sdp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView6"
+        android:layout_marginLeft="@dimen/_18sdp"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:src="@drawable/math_0029_minus" />
+
+    <ImageView
+        android:id="@+id/imageViewMathAnswerPlace"
+        android:layout_width="@dimen/_112sdp"
+        android:layout_height="@dimen/_59sdp"
+        android:layout_below="@+id/imageView6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_3sdp"
+        android:src="@drawable/math_answer_place" />
+
+    <TextView
+        android:id="@+id/textViewMathAnswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView6"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="@dimen/_19sdp"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/_24sdp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageViewMathDelete"
+        android:layout_width="@dimen/_54sdp"
+        android:layout_height="@dimen/_54sdp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imageView6"
+        android:layout_marginRight="@dimen/_18sdp"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:src="@drawable/math_delete" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="@dimen/_300sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:layout_below="@+id/imageViewMathAnswerPlace"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:src="@drawable/main_combo_game_shadows" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="@dimen/_115sdp"
+        android:layout_height="@dimen/_115sdp"
+        android:layout_below="@+id/imageView7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_11sdp"
+        android:src="@drawable/rounds_0010_rounds_bg" />
+
+    <ImageView
+        android:id="@+id/imageViewMathOk"
+        android:layout_width="@dimen/_103sdp"
+        android:layout_height="@dimen/_103sdp"
+        android:layout_below="@+id/imageView7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:src="@drawable/ok" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="@dimen/_122sdp"
+        android:layout_height="@dimen/_19sdp"
+        android:layout_below="@+id/imageView8"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:src="@drawable/ok_shadow_down" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="@dimen/_300sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/main_combo_game_shadows" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="@dimen/_400sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:layout_above="@+id/imageViewMathNumber1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:src="@drawable/shadow_up" />
+
+    <ImageView
+        android:id="@+id/imageViewMathNumber1"
+        android:layout_width="@dimen/_61sdp"
+        android:layout_height="@dimen/_61sdp"
+        android:layout_above="@+id/imageViewMathNumber0"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:src="@drawable/math_1s" />
+
+    <ImageView
+        android:id="@+id/imageViewMathNumber2"
+        android:layout_width="@dimen/_61sdp"
+        android:layout_height="@dimen/_61sdp"
+        android:layout_above="@+id/imageViewMathNumber0"
+        android:layout_toRightOf="@+id/imageViewMathNumber1"
+        android:src="@drawable/math_2s" />
+
+    <ImageView
+        android:id="@+id/imageViewMathNumber3"
+        android:layout_width="@dimen/_61sdp"
+        android:layout_height="@dimen/_61sdp"
+        android:layout_above="@+id/imageViewMathNumber0"
+        android:layout_toRightOf="@+id/imageViewMathNumber2"
+        android:src="@drawable/math_3s" />
+
+    <ImageView
+        android:id="@+id/imageViewMathNumber4"
+        android:layout_width="@dimen/_61sdp"
+        android:layout_height="@dimen/_61sdp"
+        android:layout_above="@+id/imageViewMathNumber0"
+        android:layout_toRightOf="@+id/imageViewMathNumber3"
+        android:src="@drawable/math_4s" />
+
+    <ImageView
+        android:id="@+id/imageViewMathNumber5"
+        android:layout_width="@dimen/_61sdp"
+        android:layout_height="@dimen/_61sdp"
+        android:layout_above="@+id/imageViewMathNumber0"
+        android:layout_toRightOf="@+id/imageViewMathNumber4"
+        android:src="@drawable/math_5s" />
+
+    <ImageView
+        android:id="@+id/imageViewMathNumber6"
+        android:layout_width="@dimen/_61sdp"
+        android:layout_height="@dimen/_61sdp"
+        android:layout_above="@+id/imageView10"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:src="@drawable/math_6s" />
+
+    <ImageView
+        android:id="@+id/imageViewMathNumber7"
+        android:layout_width="@dimen/_61sdp"
+        android:layout_height="@dimen/_61sdp"
+        android:layout_above="@+id/imageView10"
+        android:layout_toRightOf="@+id/imageViewMathNumber6"
+        android:src="@drawable/math_7s" />
+
+    <ImageView
+        android:id="@+id/imageViewMathNumber8"
+        android:layout_width="@dimen/_61sdp"
+        android:layout_height="@dimen/_61sdp"
+        android:layout_above="@+id/imageView10"
+        android:layout_toRightOf="@+id/imageViewMathNumber7"
+        android:src="@drawable/math_8s" />
+
+    <ImageView
+        android:id="@+id/imageViewMathNumber9"
+        android:layout_width="@dimen/_61sdp"
+        android:layout_height="@dimen/_61sdp"
+        android:layout_above="@+id/imageView10"
+        android:layout_toRightOf="@+id/imageViewMathNumber8"
+        android:src="@drawable/math_9s" />
+
+    <ImageView
+        android:id="@+id/imageViewMathNumber0"
+        android:layout_width="@dimen/_61sdp"
+        android:layout_height="@dimen/_61sdp"
+        android:layout_above="@+id/imageView10"
+        android:layout_toRightOf="@+id/imageViewMathNumber9"
+        android:src="@drawable/math_0s" />
+</RelativeLayout>

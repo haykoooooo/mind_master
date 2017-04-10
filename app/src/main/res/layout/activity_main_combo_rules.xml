@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F0F0"
+
+    tools:context=".activities.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageViewComboRules"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_75sdp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/main_combo_rules" />
+
+    <ImageView
+        android:id="@+id/imageViewRule"
+        android:layout_width="@dimen/_90sdp"
+        android:layout_height="@dimen/_36sdp"
+        android:layout_above="@+id/imageViewComboRules"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:src="@drawable/main_rule" />
+
+    <ImageView
+        android:id="@+id/imageViewComboRulesBack"
+        android:layout_width="@dimen/_140sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageViewComboRules"
+        android:layout_margin="@dimen/_10sdp"
+        android:src="@drawable/main_back1" />
+
+    <ImageView
+        android:id="@+id/imageViewComboRulesStart"
+        android:layout_width="@dimen/_140sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imageViewComboRules"
+        android:layout_margin="@dimen/_10sdp"
+        android:scaleType="fitXY"
+        android:src="@drawable/main_combo_rules_start1" />
+
+    <ImageView
+        android:layout_width="@dimen/_300sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:layout_above="@+id/imageViewRule"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/main_combo_game_shadows" />
+
+    <ImageView
+        android:layout_width="@dimen/_300sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:layout_below="@+id/imageViewComboRulesBack"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/main_combo_game_shadows" />
+
+</RelativeLayout>

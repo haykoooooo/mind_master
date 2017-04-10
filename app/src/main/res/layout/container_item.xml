@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/_55sdp"
+    android:layout_height="@dimen/_55sdp"
+    android:layout_centerInParent="true"
+    android:background="#F0F0F0"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/containerItem"
+        android:layout_width="@dimen/_51sdp"
+        android:layout_height="@dimen/_51sdp"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="@dimen/_3sdp"
+        android:layout_marginLeft="@dimen/_1sdp"
+        android:layout_marginRight="@dimen/_1sdp"
+        android:layout_marginTop="@dimen/_3sdp"
+        android:src="@drawable/rounds_0000_white" />
+</RelativeLayout>

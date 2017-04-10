@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F0F0"
+
+    tools:context=".activities.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageViewMathOptionsShadow1"
+        android:layout_width="@dimen/_300sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_70sdp"
+        android:src="@drawable/main_combo_game_shadows" />
+
+    <ImageView
+        android:id="@+id/imageViewMathOptionsEasy"
+        android:layout_width="@dimen/_180sdp"
+        android:layout_height="@dimen/_58sdp"
+        android:layout_below="@+id/imageViewMathOptionsShadow1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:src="@drawable/math_options_easy1" />
+
+    <ImageView
+        android:id="@+id/imageViewMathOptionsHard"
+        android:layout_width="@dimen/_180sdp"
+        android:layout_height="@dimen/_58sdp"
+        android:layout_below="@+id/imageViewMathOptionsEasy"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:src="@drawable/math_options_hard1" />
+
+    <ImageView
+        android:id="@+id/imageViewMathOptionsBack"
+        android:layout_width="@dimen/_180sdp"
+        android:layout_height="@dimen/_58sdp"
+        android:layout_above="@+id/imageViewMathOptionsShadow2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/_15sdp"
+        android:scaleType="fitXY"
+        android:src="@drawable/math_options_back1" />
+
+    <ImageView
+        android:id="@+id/imageViewMathOptionsShadow2"
+        android:layout_width="@dimen/_300sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/_80sdp"
+        android:src="@drawable/main_combo_game_shadows" />
+
+</RelativeLayout>
